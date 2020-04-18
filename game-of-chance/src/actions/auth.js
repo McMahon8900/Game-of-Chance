@@ -8,4 +8,5 @@ export const userLoggedIn = (user) => ({
 
 export const login = (credentials) => (dispatch) => 
 //make api request 
-    api.user.login(credentials).then(user => dispatch(userLoggedIn(user)));
+    api.user.login(credentials).then(user =>
+         dispatch(userLoggedIn(user)));

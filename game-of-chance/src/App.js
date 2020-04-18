@@ -5,35 +5,6 @@ import LoginPage from './components/pages/LoginPage';
 //import { render } from 'react-dom';
 
 
-// class App extends React.Component{
-//   constructor(props){
-//     super(props);
-//     this.state={apiResponse:""};
-//   }
-
-//   callAPI(){
-//     fetch("http://localhost:9000/testAPI")
-//     .then(res => res.text())
-//     .then(res => this.setState({apiResponse: res}));
-//   }
-
-//   componentWillMount(){
-//     this.callAPI();
-//   }
-// }
-
-// render()
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         </header>
-//         <p>{this.state.apiResponse}</p>
-//     </div>
-//   );
-
-
-
-
 
 //function that returns div with Home Page
 //const App = () => <div>Hellow World</div>

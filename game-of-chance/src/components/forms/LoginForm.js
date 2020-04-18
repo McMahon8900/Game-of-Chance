@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Form, Button } from "semantic-ui-react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Validator from "validator";
 import InlineError from "../messages/InlineError";
 
